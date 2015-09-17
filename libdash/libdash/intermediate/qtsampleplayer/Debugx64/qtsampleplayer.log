@@ -1,0 +1,123 @@
+﻿Build started 8/4/2015 4:12:41 PM.
+     1>Project "C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\qtsampleplayer.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing QtSamplePlayerGui.h...
+         Uic'ing qtsampleplayer.ui...
+         Moc'ing QTAudioRenderer.h...
+         Moc'ing DASHPlayer.h...
+         Moc'ing IDASHPlayerGuiObserver.h...
+         Moc'ing QTGLRenderer.h...
+         Rcc'ing qtsampleplayer.qrc...
+     1>RCC : warning : No resources in 'C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\qtsampleplayer.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\5.5\msvc2013_64\include\QtANGLE /IC:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles /I. /IC:\Qt\5.5\msvc2013_64\include /IC:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include\QtMultimedia /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include /IC:\Qt\5.5\msvc2013_64\include\QtCore /IC:\Qt\5.5\msvc2013_64\include\QtGui /IC:\Qt\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt\5.5\msvc2013_64\include\QtWidgets /IC:\Qt\5.5\msvc2013_64\include\QtMultimediaWidgets /I.\libdashframework\Input /I.\libdashframework\MPD /I.\libdashframework\Buffer /I.\libdashframework\helpers /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\\" /Fd"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\vc120.pdb" /Gd /TP /errorReport:prompt libdashframework\Buffer\AudioChunk.cpp libdashframework\helpers\Timing.cpp libdashframework\helpers\TimingObject.cpp libdashframework\Input\DASHManager.cpp libdashframework\Input\DASHReceiver.cpp libdashframework\Input\MediaObjectDecoder.cpp libdashframework\MPD\AdaptationSetHelper.cpp C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug\moc_DASHPlayer.cpp C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug\moc_IDASHPlayerGuiObserver.cpp C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug\moc_QTAudioRenderer.cpp libdashframework\Adaptation\AbstractAdaptationLogic.cpp libdashframework\Adaptation\AdaptationLogicFactory.cpp libdashframework\Adaptation\ManualAdaptation.cpp libdashframework\MPD\AbstractRepresentationStream.cpp libdashframework\MPD\AdaptationSetStream.cpp libdashframework\MPD\BaseUrlResolver.cpp libdashframework\MPD\RepresentationStreamFactory.cpp libdashframework\MPD\SegmentTemplateStream.cpp libdashframework\MPD\SingleMediaSegmentStream.cpp libdashframework\MPD\SegmentListStream.cpp libdashframework\MPD\TimeResolver.cpp Renderer\QTAudioRenderer.cpp UI\DASHPlayer.cpp UI\QtSamplePlayerGui.cpp Managers\MultimediaStream.cpp Decoder\LibavDecoder.cpp C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug\moc_QTGLRenderer.cpp C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug\moc_QtSamplePlayerGui.cpp libdashframework\Adaptation\AlwaysLowestLogic.cpp libdashframework\Input\MediaObject.cpp libdashframework\Buffer\MediaObjectBuffer.cpp libdashframework\Portable\MultiThreading.cpp main.cpp Managers\MultimediaManager.cpp Renderer\QTGLRenderer.cpp
+         AudioChunk.cpp
+         Timing.cpp
+         TimingObject.cpp
+         DASHManager.cpp
+         DASHReceiver.cpp
+         MediaObjectDecoder.cpp
+         AdaptationSetHelper.cpp
+         moc_DASHPlayer.cpp
+         moc_IDASHPlayerGuiObserver.cpp
+         moc_QTAudioRenderer.cpp
+         AbstractAdaptationLogic.cpp
+         AdaptationLogicFactory.cpp
+         ManualAdaptation.cpp
+         AbstractRepresentationStream.cpp
+         AdaptationSetStream.cpp
+         BaseUrlResolver.cpp
+         RepresentationStreamFactory.cpp
+         SegmentTemplateStream.cpp
+         SingleMediaSegmentStream.cpp
+         SegmentListStream.cpp
+         Generating Code...
+         Compiling...
+         TimeResolver.cpp
+         QTAudioRenderer.cpp
+         DASHPlayer.cpp
+         QtSamplePlayerGui.cpp
+         MultimediaStream.cpp
+         LibavDecoder.cpp
+         moc_QTGLRenderer.cpp
+         moc_QtSamplePlayerGui.cpp
+         AlwaysLowestLogic.cpp
+         MediaObject.cpp
+         MediaObjectBuffer.cpp
+         MultiThreading.cpp
+         main.cpp
+         MultimediaManager.cpp
+         QTGLRenderer.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\5.5\msvc2013_64\include\QtANGLE /IC:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles /I. /IC:\Qt\5.5\msvc2013_64\include /IC:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\Debug /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include\QtMultimedia /IC:\Qt\5.5\msvc2013_64\..\qtmultimedia\include /IC:\Qt\5.5\msvc2013_64\include\QtCore /IC:\Qt\5.5\msvc2013_64\include\QtGui /IC:\Qt\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt\5.5\msvc2013_64\include\QtWidgets /IC:\Qt\5.5\msvc2013_64\include\QtMultimediaWidgets /I.\libdashframework\Input /I.\libdashframework\MPD /I.\libdashframework\Buffer /I.\libdashframework\helpers /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\\" /Fd"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\GeneratedFiles\qrc_qtsampleplayer.cpp
+         qrc_qtsampleplayer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\\qtsampleplayer.exe" /NOLOGO /LIBPATH:C:\Qt\5.5\msvc2013_64\lib qtmaind.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\avcodec.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\avdevice.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\avfilter.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\avformat.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\avutil.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\postproc.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\swresample.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\libav\lib\swscale.lib C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\..\sdl\lib\x86\SDL.lib C:\Users\pan\work\TiFen\libdash\libdash\bin\libdashd.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib Qt5MultimediaWidgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\qtsampleplayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\qtsampleplayer.lib" /MACHINE:X64 C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AudioChunk.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\Timing.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\TimingObject.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\DASHManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\DASHReceiver.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MediaObjectDecoder.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AdaptationSetHelper.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\moc_DASHPlayer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\moc_IDASHPlayerGuiObserver.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\moc_QTAudioRenderer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AbstractAdaptationLogic.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AdaptationLogicFactory.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\ManualAdaptation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AbstractRepresentationStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AdaptationSetStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\BaseUrlResolver.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\RepresentationStreamFactory.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\SegmentTemplateStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\SingleMediaSegmentStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\SegmentListStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\TimeResolver.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\QTAudioRenderer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\DASHPlayer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\QtSamplePlayerGui.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MultimediaStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\LibavDecoder.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\moc_QTGLRenderer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\moc_QtSamplePlayerGui.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\qrc_qtsampleplayer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\AlwaysLowestLogic.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MediaObject.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MediaObjectBuffer.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MultiThreading.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\main.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\MultimediaManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\qtsampleplayer\Debugx64\QTGLRenderer.obj
+     1>DASHManager.obj : error LNK2019: unresolved external symbol av_malloc referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>LibavDecoder.obj : error LNK2001: unresolved external symbol av_malloc
+     1>DASHManager.obj : error LNK2019: unresolved external symbol av_free referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>LibavDecoder.obj : error LNK2001: unresolved external symbol av_free
+     1>DASHManager.obj : error LNK2019: unresolved external symbol avcodec_alloc_frame referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>LibavDecoder.obj : error LNK2001: unresolved external symbol avcodec_alloc_frame
+     1>DASHManager.obj : error LNK2019: unresolved external symbol avpicture_fill referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>DASHManager.obj : error LNK2019: unresolved external symbol avpicture_get_size referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>DASHManager.obj : error LNK2019: unresolved external symbol sws_getContext referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>DASHManager.obj : error LNK2019: unresolved external symbol sws_scale referenced in function "public: virtual void __cdecl libdash::framework::input::DASHManager::OnVideoFrameDecoded(unsigned char const * *,struct sampleplayer::decoder::videoFrameProperties *)" (?OnVideoFrameDecoded@DASHManager@input@framework@libdash@@UEAAXPEAPEBEPEAUvideoFrameProperties@decoder@sampleplayer@@@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol av_strerror referenced in function "private: void __cdecl sampleplayer::decoder::LibavDecoder::Error(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?Error@LibavDecoder@decoder@sampleplayer@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avcodec_open2 referenced in function "private: void __cdecl sampleplayer::decoder::LibavDecoder::InitStreams(struct AVFormatContext *)" (?InitStreams@LibavDecoder@decoder@sampleplayer@@AEAAXPEAUAVFormatContext@@@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avcodec_close referenced in function "private: void __cdecl sampleplayer::decoder::LibavDecoder::FreeConfigs(void)" (?FreeConfigs@LibavDecoder@decoder@sampleplayer@@AEAAXXZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol av_init_packet referenced in function "public: bool __cdecl sampleplayer::decoder::LibavDecoder::Init(void)" (?Init@LibavDecoder@decoder@sampleplayer@@QEAA_NXZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol av_free_packet referenced in function "public: void __cdecl sampleplayer::decoder::LibavDecoder::Flush(void)" (?Flush@LibavDecoder@decoder@sampleplayer@@QEAAXXZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avcodec_find_decoder referenced in function "private: void __cdecl sampleplayer::decoder::LibavDecoder::InitStreams(struct AVFormatContext *)" (?InitStreams@LibavDecoder@decoder@sampleplayer@@AEAAXPEAUAVFormatContext@@@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avcodec_decode_audio4 referenced in function "private: int __cdecl sampleplayer::decoder::LibavDecoder::DecodeMedia(struct AVFrame *,struct AVPacket *,struct sampleplayer::decoder::StreamConfig *,int *)" (?DecodeMedia@LibavDecoder@decoder@sampleplayer@@AEAAHPEAUAVFrame@@PEAUAVPacket@@PEAUStreamConfig@23@PEAH@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avcodec_decode_video2 referenced in function "private: int __cdecl sampleplayer::decoder::LibavDecoder::DecodeMedia(struct AVFrame *,struct AVPacket *,struct sampleplayer::decoder::StreamConfig *,int *)" (?DecodeMedia@LibavDecoder@decoder@sampleplayer@@AEAAHPEAUAVFrame@@PEAUAVPacket@@PEAUStreamConfig@23@PEAH@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avio_alloc_context referenced in function "private: struct AVFormatContext * __cdecl sampleplayer::decoder::LibavDecoder::OpenInput(void)" (?OpenInput@LibavDecoder@decoder@sampleplayer@@AEAAPEAUAVFormatContext@@XZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avformat_alloc_context referenced in function "private: struct AVFormatContext * __cdecl sampleplayer::decoder::LibavDecoder::OpenInput(void)" (?OpenInput@LibavDecoder@decoder@sampleplayer@@AEAAPEAUAVFormatContext@@XZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avformat_open_input referenced in function "private: struct AVFormatContext * __cdecl sampleplayer::decoder::LibavDecoder::OpenInput(void)" (?OpenInput@LibavDecoder@decoder@sampleplayer@@AEAAPEAUAVFormatContext@@XZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avformat_find_stream_info referenced in function "private: struct AVFormatContext * __cdecl sampleplayer::decoder::LibavDecoder::OpenInput(void)" (?OpenInput@LibavDecoder@decoder@sampleplayer@@AEAAPEAUAVFormatContext@@XZ)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol av_read_frame referenced in function "private: struct sampleplayer::decoder::StreamConfig * __cdecl sampleplayer::decoder::LibavDecoder::GetNextPacket(struct AVFormatContext *,struct AVPacket *)" (?GetNextPacket@LibavDecoder@decoder@sampleplayer@@AEAAPEAUStreamConfig@23@PEAUAVFormatContext@@PEAUAVPacket@@@Z)
+     1>LibavDecoder.obj : error LNK2019: unresolved external symbol avformat_close_input referenced in function "public: void __cdecl sampleplayer::decoder::LibavDecoder::Stop(void)" (?Stop@LibavDecoder@decoder@sampleplayer@@QEAAXXZ)
+     1>MultimediaManager.obj : error LNK2019: unresolved external symbol "class dash::IDASHManager * __cdecl CreateDashManager(void)" (?CreateDashManager@@YAPEAVIDASHManager@dash@@XZ) referenced in function "public: __cdecl sampleplayer::managers::MultimediaManager::MultimediaManager(class sampleplayer::renderer::QTGLRenderer *,class sampleplayer::renderer::QTAudioRenderer *)" (??0MultimediaManager@managers@sampleplayer@@QEAA@PEAVQTGLRenderer@renderer@2@PEAVQTAudioRenderer@42@@Z)
+     1>MultimediaManager.obj : error LNK2019: unresolved external symbol av_register_all referenced in function "public: __cdecl sampleplayer::managers::MultimediaManager::MultimediaManager(class sampleplayer::renderer::QTGLRenderer *,class sampleplayer::renderer::QTAudioRenderer *)" (??0MultimediaManager@managers@sampleplayer@@QEAA@PEAVQTGLRenderer@renderer@2@PEAVQTAudioRenderer@42@@Z)
+     1>C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\\qtsampleplayer.exe : fatal error LNK1120: 23 unresolved externals
+     1>Done Building Project "C:\Users\pan\work\TiFen\libdash\libdash\qtsampleplayer\qtsampleplayer.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:36.09

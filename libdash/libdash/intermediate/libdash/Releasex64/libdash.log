@@ -1,0 +1,129 @@
+﻿Build started 8/4/2015 4:15:42 PM.
+     1>Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBDASH_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\\" /Fd"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\vc120.pdb" /Gd /TP /errorReport:prompt source\helpers\BlockStream.cpp source\helpers\Path.cpp source\helpers\String.cpp source\helpers\SyncedBlockStream.cpp source\helpers\Time.cpp source\metrics\HTTPTransaction.cpp source\metrics\TCPConnection.cpp source\metrics\ThroughputMeasurement.cpp source\mpd\AbstractMPDElement.cpp source\mpd\BaseUrl.cpp source\mpd\ContentComponent.cpp source\mpd\Descriptor.cpp source\mpd\Metrics.cpp source\mpd\MultipleSegmentBase.cpp source\mpd\ProgramInformation.cpp source\mpd\Range.cpp source\mpd\RepresentationBase.cpp source\mpd\Segment.cpp source\mpd\SegmentBase.cpp source\mpd\SegmentList.cpp source\mpd\AdaptationSet.cpp Source\dllmain.cpp Source\libdash.cpp Source\manager\DASHManager.cpp Source\mpd\MPD.cpp Source\mpd\Period.cpp Source\mpd\Representation.cpp source\mpd\SegmentTemplate.cpp source\mpd\SegmentTimeline.cpp source\mpd\SegmentURL.cpp source\mpd\SubRepresentation.cpp source\mpd\Subset.cpp source\mpd\Timeline.cpp source\mpd\URLType.cpp source\network\AbstractChunk.cpp source\network\DownloadStateManager.cpp source\portable\MultiThreading.cpp Source\xml\DOMHelper.cpp Source\xml\DOMParser.cpp Source\xml\Node.cpp
+         BlockStream.cpp
+     1>source\helpers\BlockStream.cpp(52): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(64): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(76): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(89): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(141): warning C4267: '+=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(168): warning C4267: '+=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\helpers\BlockStream.cpp(200): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+         Path.cpp
+     1>source\helpers\Path.cpp(36): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         String.cpp
+         SyncedBlockStream.cpp
+         Time.cpp
+     1>source\helpers\Time.cpp(18): warning C4244: 'return' : conversion from 'time_t' to 'uint32_t', possible loss of data
+     1>source\helpers\Time.cpp(32): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+         HTTPTransaction.cpp
+         TCPConnection.cpp
+         ThroughputMeasurement.cpp
+         AbstractMPDElement.cpp
+         BaseUrl.cpp
+         ContentComponent.cpp
+         Descriptor.cpp
+         Metrics.cpp
+         MultipleSegmentBase.cpp
+         ProgramInformation.cpp
+         Range.cpp
+         RepresentationBase.cpp
+         Segment.cpp
+         SegmentBase.cpp
+         SegmentList.cpp
+         Compiling...
+         AdaptationSet.cpp
+         dllmain.cpp
+         libdash.cpp
+         DASHManager.cpp
+         MPD.cpp
+         Period.cpp
+         Representation.cpp
+         SegmentTemplate.cpp
+     1>source\mpd\SegmentTemplate.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         SegmentTimeline.cpp
+         SegmentURL.cpp
+         SubRepresentation.cpp
+         Subset.cpp
+         Timeline.cpp
+         URLType.cpp
+         AbstractChunk.cpp
+     1>source\network\AbstractChunk.cpp(84): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>source\network\AbstractChunk.cpp(88): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>source\network\AbstractChunk.cpp(92): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>source\network\AbstractChunk.cpp(105): warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>source\network\AbstractChunk.cpp(225): warning C4244: 'argument' : conversion from 'unsigned long' to 'uint16_t', possible loss of data
+         DownloadStateManager.cpp
+     1>source\network\DownloadStateManager.cpp(81): warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+         MultiThreading.cpp
+         DOMHelper.cpp
+         DOMParser.cpp
+         Node.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib wsock32.lib C:\Users\pan\work\TiFen\libdash\libdash\libxml2\lib\libxml2.lib C:\Users\pan\work\TiFen\libdash\libdash\iconv\lib\iconv.lib C:\Users\pan\work\TiFen\libdash\libdash\zlib\lib\zlib.lib C:\Users\pan\work\TiFen\libdash\libdash\libcurl\lib\libcurl_imp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.lib" /MACHINE:X64 /DLL C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\BlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Path.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\String.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SyncedBlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Time.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\HTTPTransaction.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\TCPConnection.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\ThroughputMeasurement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\AbstractMPDElement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\BaseUrl.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\ContentComponent.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Descriptor.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Metrics.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\MultipleSegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\ProgramInformation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Range.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\RepresentationBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Segment.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SegmentList.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\AdaptationSet.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\dllmain.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\libdash.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\DASHManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\MPD.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Period.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Representation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SegmentTemplate.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SegmentTimeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SegmentURL.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\SubRepresentation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Subset.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Timeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\URLType.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\AbstractChunk.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\DownloadStateManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\MultiThreading.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\DOMHelper.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\DOMParser.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Releasex64\Node.obj
+            Creating library C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.lib and object C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.exp
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_easy_setopt
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_easy_perform
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_easy_cleanup
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_global_init
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_global_cleanup
+     1>AbstractChunk.obj : error LNK2001: unresolved external symbol __imp_curl_easy_init
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderNodeType
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlReaderForFile
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderReadString
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlCleanupParser
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderRead
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderIsEmptyElement
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderConstValue
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderMoveToNextAttribute
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderConstName
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlFreeTextReader
+     1>DOMParser.obj : error LNK2001: unresolved external symbol xmlTextReaderHasAttributes
+     1>C:\Users\pan\work\TiFen\libdash\libdash\x64\Release\libdash.dll : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:21.95

@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ui_QtSamplePlayerClass" Collapsed="true">
+    <Position X="8.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>3gAgAAAHAIMEIBBACAACAQAAAIQAIAQAgAAAgFGBjDA=</HashCode>
+      <FileName>GeneratedFiles\ui_qtsampleplayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::buffer::AudioChunk" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAAAAAAAAAAQAACABAAAgAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>libdashframework\Buffer\AudioChunk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::buffer::Buffer&lt;T&gt;" Collapsed="true">
+    <Position X="16" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIEAAAIAAAAABAAAAEAEBCAQEDAABAAAAAAIBQQAA=</HashCode>
+      <FileName>libdashframework\Buffer\Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::buffer::IMediaObjectBufferObserver" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Buffer\IMediaObjectBufferObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::buffer::IBufferObserver" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Buffer\IBufferObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::buffer::MediaObjectBuffer" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIEAIAIAAAAABCAAAECEBCAAEDAABAAAAAAIBAAAA=</HashCode>
+      <FileName>libdashframework\Buffer\MediaObjectBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::helpers::Timing" Collapsed="true">
+    <Position X="16" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAEAAAAAAAEAQAAAAAgAAAAAAAAAEAAAAIAAAAAA=</HashCode>
+      <FileName>libdashframework\helpers\Timing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::helpers::TimingObject" Collapsed="true">
+    <Position X="17.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACCAAAgAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\helpers\TimingObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::DASHManager" Collapsed="true">
+    <Position X="5.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAAACAAAABAgCAAkAAAAAEFAgBAJABAAABAAJA=</HashCode>
+      <FileName>libdashframework\Input\DASHManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::DASHReceiver" Collapsed="true">
+    <Position X="17.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoQgAAICAKQAARAABAlCAAQAAIAgAQKABCAkZkCBA=</HashCode>
+      <FileName>libdashframework\Input\DASHReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::IDASHManagerObserver" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAACAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Input\IDASHManagerObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::IMediaObjectDecoderObserver" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>libdashframework\Input\IMediaObjectDecoderObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::MediaObjectDecoder">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAoAAAGAAAAAAAAJAIAAgAEAIAABAIAACQACAAQA=</HashCode>
+      <FileName>libdashframework\Input\MediaObjectDecoder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::IDASHReceiverObserver" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Input\IDASHReceiverObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::IDataReceiver" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>libdashframework\Input\IDataReceiver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::input::MediaObject" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAEAFAQAIAAIAAAA0AAAACQAEABBAAEAgAAA=</HashCode>
+      <FileName>libdashframework\Input\MediaObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::AdaptationSetHelper" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAGAAAAAAAAAAAAAAACAAAAAAAAIA=</HashCode>
+      <FileName>libdashframework\MPD\AdaptationSetHelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::AbstractRepresentationStream" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAQAAAIGAAAIAACKBAAAAAAAACEACCoCAAAA=</HashCode>
+      <FileName>libdashframework\MPD\AbstractRepresentationStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::AdaptationSetStream" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAIQAAAAAAACAAAAAAAAAACAACAggACAA=</HashCode>
+      <FileName>libdashframework\MPD\AdaptationSetStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::BaseUrlResolver" Collapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\BaseUrlResolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::IRepresentationStream" Collapsed="true">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAQAAAIGAAAIAAAKAAAAAAAAAAEAAAIAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\IRepresentationStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::RepresentationStreamFactory" Collapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\RepresentationStreamFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::SingleMediaSegmentStream" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAQAAAIAAAAIAAAKAAQAAAAAAAEAAAIAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\SingleMediaSegmentStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::SegmentListStream" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAGAAAIAAAIACAAAAAAAAEAIAMAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\SegmentListStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::SegmentTemplateStream" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAAQAAAAGAAAYQAAIAAAAAAAAAAEgAAIAAEAA=</HashCode>
+      <FileName>libdashframework\MPD\SegmentTemplateStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::mpd::TimeResolver" Collapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAACBEAAIAAAAAAAAAIAAABAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\MPD\TimeResolver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::adaptation::AbstractAdaptationLogic" Collapsed="true">
+    <Position X="1.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAgCAAAAAIAgEACAACAoAgAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\AbstractAdaptationLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::adaptation::AdaptationLogicFactory" Collapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\AdaptationLogicFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::adaptation::ManualAdaptation" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAABAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\ManualAdaptation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::adaptation::AlwaysLowestLogic">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\AlwaysLowestLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="libdash::framework::adaptation::IAdaptationLogic" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAgAAAAAAAQgEAAAAAAAAgAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\IAdaptationLogic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::managers::IMultimediaManagerObserver" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAoAAAAAAAAAAIIAAAA=</HashCode>
+      <FileName>Managers\IMultimediaManagerObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::managers::IStreamObserver" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAACAAAAAAAgAAABAAAAAAAIAAAA=</HashCode>
+      <FileName>Managers\IStreamObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::managers::MultimediaStream" Collapsed="true">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAIEAEAACAAIAEAkAKQhAAQAAARAoAAJAACAARoAAA=</HashCode>
+      <FileName>Managers\MultimediaStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::managers::MultimediaManager" Collapsed="true">
+    <Position X="3.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMIAASAAtOMAACMCAIDwAEIEAMgAIABgIkAGQiJgEBQ=</HashCode>
+      <FileName>Managers\MultimediaManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::decoder::LibavDecoder" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAAAABAgIAREBEAAAAAAABAAIBEBAJCACQRgImAA=</HashCode>
+      <FileName>Decoder\LibavDecoder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::decoder::IAudioObserver" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decoder\IAudioObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::decoder::IVideoObserver" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decoder\IVideoObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ui::QtSamplePlayerClass" Collapsed="true">
+    <Position X="8.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_qtsampleplayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::IDASHPlayerGuiObserver" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>UI\IDASHPlayerGuiObserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::QtSamplePlayerGui" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAAAAAJAUAgAIiECAAUBAAwAiAIAAAACrAKZAAQ=</HashCode>
+      <FileName>UI\QtSamplePlayerGui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::DASHPlayer" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAIAMAAAAAAAIAAEiAACgAAAAAAQBKAIZAACA=</HashCode>
+      <FileName>UI\DASHPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::renderer::QTAudioRenderer" Collapsed="true">
+    <Position X="16" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAABAgBABAAAACCAAACAABAQAAAAACAAAAIAA=</HashCode>
+      <FileName>Renderer\QTAudioRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sampleplayer::renderer::QTGLRenderer" Collapsed="true">
+    <Position X="17.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAEAAABAAAAAEAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Renderer\QTGLRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="qt_meta_stringdata_sampleplayer__DASHPlayer_t" Collapsed="true">
+    <Position X="21.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_DASHPlayer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qt_meta_stringdata_sampleplayer__IDASHPlayerGuiObserver_t" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_IDASHPlayerGuiObserver.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qt_meta_stringdata_sampleplayer__renderer__QTAudioRenderer_t" Collapsed="true">
+    <Position X="17.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_QTAudioRenderer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qt_meta_stringdata_sampleplayer__renderer__QTGLRenderer_t" Collapsed="true">
+    <Position X="19.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_QTGLRenderer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="qt_meta_stringdata_sampleplayer__QtSamplePlayerGui_t" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_QtSamplePlayerGui.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="condition_variable_t" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABAAAEAAEAEA=</HashCode>
+      <FileName>libdashframework\Portable\MultiThreading.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::initializer" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAEA=</HashCode>
+      <FileName>GeneratedFiles\qrc_qtsampleplayer.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sampleplayer::decoder::StreamConfig" Collapsed="true">
+    <Position X="23" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Decoder\LibavDecoder.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sampleplayer::decoder::audioFrameProperties" Collapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAUAAAAAAAgAAAAAAAAAACEIAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Decoder\IAudioObserver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sampleplayer::decoder::videoFrameProperties" Collapsed="true">
+    <Position X="16" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAIQAQAAAAAgAAAEIAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Decoder\IVideoObserver.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="sampleplayer::settings_t" Collapsed="true">
+    <Position X="21.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAEAAAAAAAAAAEAAAAAAAAAAAgAgAAA=</HashCode>
+      <FileName>UI\DASHPlayer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="THREAD_HANDLE" Collapsed="true">
+    <Position X="16" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Portable\MultiThreading.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="libdash::framework::buffer::BufferType" Collapsed="true">
+    <Position X="16" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>libdashframework\Buffer\IBufferObserver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="libdash::framework::mpd::RepresentationStreamType" Collapsed="true">
+    <Position X="21.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAACAA=</HashCode>
+      <FileName>libdashframework\MPD\IRepresentationStream.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="libdash::framework::adaptation::LogicType" Collapsed="true">
+    <Position X="17.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>libdashframework\Adaptation\IAdaptationLogic.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sampleplayer::managers::StreamType" Collapsed="true">
+    <Position X="23" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Managers\IStreamObserver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sampleplayer::decoder::pixelFormat" Collapsed="true">
+    <Position X="19.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decoder\IVideoObserver.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

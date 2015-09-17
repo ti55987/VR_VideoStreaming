@@ -1,0 +1,101 @@
+﻿Build started 8/5/2015 2:13:37 PM.
+     1>Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBDASH_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\\" /Fd"C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\helpers\BlockStream.cpp source\helpers\Path.cpp source\helpers\String.cpp source\helpers\SyncedBlockStream.cpp source\helpers\Time.cpp source\metrics\HTTPTransaction.cpp source\metrics\TCPConnection.cpp source\metrics\ThroughputMeasurement.cpp source\mpd\AbstractMPDElement.cpp source\mpd\BaseUrl.cpp source\mpd\ContentComponent.cpp source\mpd\Descriptor.cpp source\mpd\Metrics.cpp source\mpd\MultipleSegmentBase.cpp source\mpd\ProgramInformation.cpp source\mpd\Range.cpp source\mpd\RepresentationBase.cpp source\mpd\Segment.cpp source\mpd\SegmentBase.cpp source\mpd\SegmentList.cpp source\mpd\AdaptationSet.cpp Source\dllmain.cpp Source\libdash.cpp Source\manager\DASHManager.cpp Source\mpd\MPD.cpp Source\mpd\Period.cpp Source\mpd\Representation.cpp source\mpd\SegmentTemplate.cpp source\mpd\SegmentTimeline.cpp source\mpd\SegmentURL.cpp source\mpd\SubRepresentation.cpp source\mpd\Subset.cpp source\mpd\Timeline.cpp source\mpd\URLType.cpp source\network\AbstractChunk.cpp source\network\DownloadStateManager.cpp source\portable\MultiThreading.cpp Source\xml\DOMHelper.cpp Source\xml\DOMParser.cpp Source\xml\Node.cpp
+         BlockStream.cpp
+         Path.cpp
+         String.cpp
+         SyncedBlockStream.cpp
+         Time.cpp
+     1>source\helpers\Time.cpp(18): warning C4244: 'return' : conversion from 'time_t' to 'uint32_t', possible loss of data
+     1>source\helpers\Time.cpp(32): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+         HTTPTransaction.cpp
+         TCPConnection.cpp
+         ThroughputMeasurement.cpp
+         AbstractMPDElement.cpp
+         BaseUrl.cpp
+         ContentComponent.cpp
+         Descriptor.cpp
+         Metrics.cpp
+         MultipleSegmentBase.cpp
+         ProgramInformation.cpp
+         Range.cpp
+         RepresentationBase.cpp
+         Segment.cpp
+         SegmentBase.cpp
+         SegmentList.cpp
+         Compiling...
+         AdaptationSet.cpp
+         dllmain.cpp
+         libdash.cpp
+         DASHManager.cpp
+         MPD.cpp
+         Period.cpp
+         Representation.cpp
+         SegmentTemplate.cpp
+     1>source\mpd\SegmentTemplate.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         SegmentTimeline.cpp
+         SegmentURL.cpp
+         SubRepresentation.cpp
+         Subset.cpp
+         Timeline.cpp
+         URLType.cpp
+         AbstractChunk.cpp
+     1>source\network\AbstractChunk.cpp(225): warning C4244: 'argument' : conversion from 'unsigned long' to 'uint16_t', possible loss of data
+         DownloadStateManager.cpp
+         MultiThreading.cpp
+         DOMHelper.cpp
+         DOMParser.cpp
+         Node.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.dll" /INCREMENTAL:NO /NOLOGO ws2_32.lib wsock32.lib C:\Users\pan\work\TiFen\libdash\libdash\libxml2\lib\libxml2.lib C:\Users\pan\work\TiFen\libdash\libdash\iconv\lib\iconv.lib C:\Users\pan\work\TiFen\libdash\libdash\zlib\lib\zlib.lib C:\Users\pan\work\TiFen\libdash\libdash\libcurl\lib\libcurl_imp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.lib" /MACHINE:X86 /SAFESEH /DLL C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\BlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Path.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\String.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SyncedBlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Time.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\HTTPTransaction.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\TCPConnection.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\ThroughputMeasurement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\AbstractMPDElement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\BaseUrl.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\ContentComponent.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Descriptor.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Metrics.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\MultipleSegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\ProgramInformation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Range.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\RepresentationBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Segment.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SegmentList.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\AdaptationSet.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\dllmain.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\libdash.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\DASHManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\MPD.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Period.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Representation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SegmentTemplate.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SegmentTimeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SegmentURL.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\SubRepresentation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Subset.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Timeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\URLType.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\AbstractChunk.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\DownloadStateManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\MultiThreading.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\DOMHelper.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\DOMParser.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\ReleaseWin32\Node.obj
+            Creating library C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.lib and object C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.exp
+         Generating code
+         Finished generating code
+         libdash.vcxproj -> C:\Users\pan\work\TiFen\libdash\libdash\bin\libdash.dll
+     1>Done Building Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.36

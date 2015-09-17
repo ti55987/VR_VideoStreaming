@@ -1,0 +1,52 @@
+﻿Build started 8/21/2015 3:34:03 PM.
+     1>Project "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Qt\5.5\msvc2013\include\QtWidgets /IC:\Qt\5.5\msvc2013\include\QtMultimediaWidgets /IC:\Qt\5.5\msvc2013\include\QtCore /IC:\Qt\5.5\msvc2013\..\qtmultimedia\include\QtMultimedia /IC:\Qt\5.5\msvc2013\..\qtmultimedia\include /IC:\Qt\5.5\msvc2013\include /IC:\Qt\5.5\msvc2013\include\QtGui /I"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\LibHVR" /IC:\Qt\5.5\msvc2013\include\QtQuick /I"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\qtsampleplayer\libdashframework\Buffer" /I"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\qtsampleplayer\libdashframework\Input" /I"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\qtsampleplayer\libdashframework\MPD" /I"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\qtsampleplayer\libdashframework\helpers" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Decoder\LibavDecoder.cpp libdashframework\Input\MediaObject.cpp libdashframework\MPD\AdaptationSetHelper.cpp libdashframework\MPD\BaseUrlResolver.cpp libdashframework\Portable\MultiThreading.cpp main.cpp metadataparser.cpp PresencePlayer.cpp QGLCanvas.cpp StreamingManager.cpp StreamingProvider.cpp videodecoderlibav.cpp
+         videodecoderlibav.cpp
+         StreamingProvider.cpp
+         StreamingManager.cpp
+     1>c:\users\pan\work\tifen\ti-fen\streaming\test\test\streamingmanager.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pan\work\tifen\ti-fen\streaming\test\test\streamingmanager.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(221): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(218) : while compiling class template member function 'void libdash::framework::buffer::Buffer<QImage>::Clear(void)'
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(74) : see reference to function template instantiation 'void libdash::framework::buffer::Buffer<QImage>::Clear(void)' being compiled
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(62) : while compiling class template member function 'libdash::framework::buffer::Buffer<QImage>::Buffer(uint32_t,libdash::framework::buffer::BufferType)'
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\streamingmanager.h(41) : see reference to function template instantiation 'libdash::framework::buffer::Buffer<QImage>::Buffer(uint32_t,libdash::framework::buffer::BufferType)' being compiled
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\streamingmanager.h(41) : see reference to class template instantiation 'libdash::framework::buffer::Buffer<QImage>' being compiled
+         QGLCanvas.cpp
+         PresencePlayer.cpp
+         metadataparser.cpp
+         main.cpp
+     1>c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(221): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(218) : while compiling class template member function 'void libdash::framework::buffer::Buffer<QImage>::Clear(void)'
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(74) : see reference to function template instantiation 'void libdash::framework::buffer::Buffer<QImage>::Clear(void)' being compiled
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\libdashframework\buffer\buffer.h(73) : while compiling class template member function 'libdash::framework::buffer::Buffer<QImage>::~Buffer(void)'
+                 c:\users\pan\work\tifen\ti-fen\streaming\test\test\streamingmanager.h(41) : see reference to class template instantiation 'libdash::framework::buffer::Buffer<QImage>' being compiled
+         MultiThreading.cpp
+         BaseUrlResolver.cpp
+         AdaptationSetHelper.cpp
+         MediaObject.cpp
+         LibavDecoder.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\Test.res" Test.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Debug\Test.exe" /INCREMENTAL /NOLOGO "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\avcodec.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\avdevice.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\avfilter.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\avformat.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\avutil.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\postproc.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\swresample.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\libav\lib\swscale.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\sdl\lib\x64\SDL.lib" "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\\..\..\libdash\libdash\bin\libdashd.lib" C:\Qt\5.5\msvc2013\lib\Qt5Cored.lib C:\Qt\5.5\msvc2013\lib\Qt5Guid.lib C:\Qt\5.5\msvc2013\lib\Qt5Multimediad.lib C:\Qt\5.5\msvc2013\lib\Qt5OpenGLd.lib opengl32.lib glu32.lib C:\Qt\5.5\msvc2013\lib\qtmaind.lib C:\Qt\5.5\msvc2013\lib\Qt5Widgetsd.lib C:\Qt\5.5\msvc2013\lib\Qt5MultimediaWidgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Debug\Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Debug\Test.lib" /MACHINE:X86 Debug\Test.res
+         Debug\LibavDecoder.obj
+         Debug\MediaObject.obj
+         Debug\AdaptationSetHelper.obj
+         Debug\BaseUrlResolver.obj
+         Debug\MultiThreading.obj
+         Debug\main.obj
+         Debug\metadataparser.obj
+         Debug\PresencePlayer.obj
+         Debug\QGLCanvas.obj
+         Debug\StreamingManager.obj
+         Debug\StreamingProvider.obj
+         Debug\videodecoderlibav.obj
+         Test.vcxproj -> C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Debug\Test.exe
+     1>Done Building Project "C:\Users\pan\work\TiFen\Ti-Fen\Streaming\Test\Test\Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.96

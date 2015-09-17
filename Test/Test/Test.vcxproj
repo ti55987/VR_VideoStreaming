@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AFF7D8AD-E08B-4E02-A05F-AC37F54BE32F}</ProjectGuid>
+    <RootNamespace>Test</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)\..\..\libdash\libdash\libav\include;$(ProjectDir)\..\..\libdash\libdash\sdl\include;$(ProjectDir)\..\..\libdash\libdash\libdash\include;$(ProjectDir)\..\..\libdash\libdash\qtsampleplayer;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtMultimediaWidgets;$(QTDIR)\include\QtCore;$(QTDIR)\..\qtmultimedia\include\QtMultimedia;$(QTDIR)\..\qtmultimedia\include;$(QTDIR)\include;$(QTDIR)\include\QtGui;$(ProjectDir)\..\..\LibHVR;$(QTDIR)\include\QtQuick;$(ProjectDir)\..\..\libdash\libdash\qtsampleplayer\libdashframework\Buffer;$(ProjectDir)\..\..\libdash\libdash\qtsampleplayer\libdashframework\Input;$(ProjectDir)\..\..\libdash\libdash\qtsampleplayer\libdashframework\MPD;$(ProjectDir)\..\..\libdash\libdash\qtsampleplayer\libdashframework\helpers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>"$(ProjectDir)\..\..\libdash\libdash\libav\lib\avcodec.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\avdevice.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\avfilter.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\avformat.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\avutil.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\postproc.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\swresample.lib";"$(ProjectDir)\..\..\libdash\libdash\libav\lib\swscale.lib";"$(ProjectDir)\..\..\libdash\libdash\sdl\lib\x64\SDL.lib";"$(ProjectDir)\..\..\libdash\libdash\bin\libdashd.lib";"$(QTDIR)\lib\Qt5Cored.lib";"$(QTDIR)\lib\Qt5Guid.lib";"$(QTDIR)\lib\Qt5Multimediad.lib";"$(QTDIR)\lib\Qt5OpenGLd.lib";opengl32.lib;glu32.lib;"$(QTDIR)\lib\qtmaind.lib";"$(QTDIR)\lib\Qt5Widgetsd.lib";"$(QTDIR)\lib\Qt5MultimediaWidgetsd.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Decoder\LibavDecoder.cpp" />
+    <ClCompile Include="libdashframework\Input\MediaObject.cpp" />
+    <ClCompile Include="libdashframework\MPD\AdaptationSetHelper.cpp" />
+    <ClCompile Include="libdashframework\MPD\BaseUrlResolver.cpp" />
+    <ClCompile Include="libdashframework\Portable\MultiThreading.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="metadataparser.cpp" />
+    <ClCompile Include="PresencePlayer.cpp" />
+    <ClCompile Include="QGLCanvas.cpp" />
+    <ClCompile Include="StreamingManager.cpp" />
+    <ClCompile Include="StreamingProvider.cpp" />
+    <ClCompile Include="videodecoderlibav.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\work\TiFen\sunny-hauki\PresencePlayer\presenceprovider.h" />
+    <ClInclude Include="Decoder\LibavDecoder.h" />
+    <ClInclude Include="libdashframework\Input\MediaObject.h" />
+    <ClInclude Include="libdashframework\MPD\AdaptationSetHelper.h" />
+    <ClInclude Include="libdashframework\MPD\BaseUrlResolver.h" />
+    <ClInclude Include="libdashframework\Portable\MultiThreading.h" />
+    <ClInclude Include="metadataparser.h" />
+    <ClInclude Include="PresencePlayer.h" />
+    <ClInclude Include="QGLCanvas.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StreamingManager.h" />
+    <ClInclude Include="StreamingProvider.h" />
+    <ClInclude Include="videodecoder.h" />
+    <ClInclude Include="videodecoderlibav.h" />
+    <ClInclude Include="videodecodermac.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Test.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

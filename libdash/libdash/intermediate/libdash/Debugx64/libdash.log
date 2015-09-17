@@ -1,0 +1,67 @@
+﻿Build started 8/5/2015 2:13:23 PM.
+     1>Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.dll" /INCREMENTAL /NOLOGO ws2_32.lib wsock32.lib C:\Users\pan\work\TiFen\libdash\libdash\libxml2\lib\libxml2.lib C:\Users\pan\work\TiFen\libdash\libdash\iconv\lib\iconv.lib C:\Users\pan\work\TiFen\libdash\libdash\zlib\lib\zlib.lib C:\Users\pan\work\TiFen\libdash\libdash\libcurl\lib\libcurld_imp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.lib" /MACHINE:X64 /DLL C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\BlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Path.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\String.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SyncedBlockStream.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Time.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\HTTPTransaction.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\TCPConnection.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\ThroughputMeasurement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\AbstractMPDElement.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\BaseUrl.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\ContentComponent.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Descriptor.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Metrics.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\MultipleSegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\ProgramInformation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Range.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\RepresentationBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Segment.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SegmentBase.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SegmentList.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\AdaptationSet.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\dllmain.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\libdash.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\DASHManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\MPD.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Period.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Representation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SegmentTemplate.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SegmentTimeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SegmentURL.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\SubRepresentation.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Subset.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Timeline.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\URLType.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\AbstractChunk.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\DownloadStateManager.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\MultiThreading.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\DOMHelper.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\DOMParser.obj
+         C:\Users\pan\work\TiFen\libdash\libdash\intermediate\libdash\Debugx64\Node.obj
+            Creating library C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.lib and object C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.exp
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_global_init referenced in function "public: virtual bool __cdecl dash::network::AbstractChunk::StartDownload(void)" (?StartDownload@AbstractChunk@network@dash@@UEAA_NXZ)
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_global_cleanup referenced in function "private: static void * __cdecl dash::network::AbstractChunk::DownloadInternalConnection(void *)" (?DownloadInternalConnection@AbstractChunk@network@dash@@CAPEAXPEAX@Z)
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_easy_init referenced in function "public: virtual bool __cdecl dash::network::AbstractChunk::StartDownload(void)" (?StartDownload@AbstractChunk@network@dash@@UEAA_NXZ)
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_easy_setopt referenced in function "public: virtual bool __cdecl dash::network::AbstractChunk::StartDownload(void)" (?StartDownload@AbstractChunk@network@dash@@UEAA_NXZ)
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_easy_perform referenced in function "private: static void * __cdecl dash::network::AbstractChunk::DownloadInternalConnection(void *)" (?DownloadInternalConnection@AbstractChunk@network@dash@@CAPEAXPEAX@Z)
+     1>AbstractChunk.obj : error LNK2019: unresolved external symbol __imp_curl_easy_cleanup referenced in function "private: static void * __cdecl dash::network::AbstractChunk::DownloadInternalConnection(void *)" (?DownloadInternalConnection@AbstractChunk@network@dash@@CAPEAXPEAX@Z)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlCleanupParser referenced in function "public: virtual __cdecl dash::xml::DOMParser::~DOMParser(void)" (??1DOMParser@xml@dash@@UEAA@XZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlFreeTextReader referenced in function "public: bool __cdecl dash::xml::DOMParser::Parse(void)" (?Parse@DOMParser@xml@dash@@QEAA_NXZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderRead referenced in function "public: bool __cdecl dash::xml::DOMParser::Parse(void)" (?Parse@DOMParser@xml@dash@@QEAA_NXZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderReadString referenced in function "private: class dash::xml::Node * __cdecl dash::xml::DOMParser::ProcessNode(void)" (?ProcessNode@DOMParser@xml@dash@@AEAAPEAVNode@23@XZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderHasAttributes referenced in function "private: void __cdecl dash::xml::DOMParser::AddAttributesToNode(class dash::xml::Node *)" (?AddAttributesToNode@DOMParser@xml@dash@@AEAAXPEAVNode@23@@Z)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderIsEmptyElement referenced in function "private: class dash::xml::Node * __cdecl dash::xml::DOMParser::ProcessNode(void)" (?ProcessNode@DOMParser@xml@dash@@AEAAPEAVNode@23@XZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderNodeType referenced in function "private: class dash::xml::Node * __cdecl dash::xml::DOMParser::ProcessNode(void)" (?ProcessNode@DOMParser@xml@dash@@AEAAPEAVNode@23@XZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderConstName referenced in function "private: class dash::xml::Node * __cdecl dash::xml::DOMParser::ProcessNode(void)" (?ProcessNode@DOMParser@xml@dash@@AEAAPEAVNode@23@XZ)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderConstValue referenced in function "private: void __cdecl dash::xml::DOMParser::AddAttributesToNode(class dash::xml::Node *)" (?AddAttributesToNode@DOMParser@xml@dash@@AEAAXPEAVNode@23@@Z)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlTextReaderMoveToNextAttribute referenced in function "private: void __cdecl dash::xml::DOMParser::AddAttributesToNode(class dash::xml::Node *)" (?AddAttributesToNode@DOMParser@xml@dash@@AEAAXPEAVNode@23@@Z)
+     1>DOMParser.obj : error LNK2019: unresolved external symbol xmlReaderForFile referenced in function "public: bool __cdecl dash::xml::DOMParser::Parse(void)" (?Parse@DOMParser@xml@dash@@QEAA_NXZ)
+     1>C:\Users\pan\work\TiFen\libdash\libdash\x64\Debug\libdashd.dll : fatal error LNK1120: 17 unresolved externals
+     1>Done Building Project "C:\Users\pan\work\TiFen\libdash\libdash\libdash\libdash.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.35
